@@ -22,6 +22,3598 @@
 # Set the update value to 1, then set enbale to 1 and test with 0-8 live neighbors
 
 
+# ===============================
+# Tests with update value = 0
+# ===============================
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00000000, live neighbors = 0
+0001__1_0_00000000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00000001, live neighbors = 1
+0001__1_0_00000001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00000010, live neighbors = 1
+0001__1_0_00000010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00000011, live neighbors = 2
+0001__1_0_00000011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00000100, live neighbors = 1
+0001__1_0_00000100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00000101, live neighbors = 2
+0001__1_0_00000101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00000110, live neighbors = 2
+0001__1_0_00000110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00000111, live neighbors = 3
+0001__1_0_00000111
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00001000, live neighbors = 1
+0001__1_0_00001000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00001001, live neighbors = 2
+0001__1_0_00001001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00001010, live neighbors = 2
+0001__1_0_00001010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00001011, live neighbors = 3
+0001__1_0_00001011
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00001100, live neighbors = 2
+0001__1_0_00001100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00001101, live neighbors = 3
+0001__1_0_00001101
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00001110, live neighbors = 3
+0001__1_0_00001110
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00001111, live neighbors = 4
+0001__1_0_00001111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00010000, live neighbors = 1
+0001__1_0_00010000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00010001, live neighbors = 2
+0001__1_0_00010001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00010010, live neighbors = 2
+0001__1_0_00010010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00010011, live neighbors = 3
+0001__1_0_00010011
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00010100, live neighbors = 2
+0001__1_0_00010100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00010101, live neighbors = 3
+0001__1_0_00010101
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00010110, live neighbors = 3
+0001__1_0_00010110
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00010111, live neighbors = 4
+0001__1_0_00010111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00011000, live neighbors = 2
+0001__1_0_00011000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00011001, live neighbors = 3
+0001__1_0_00011001
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00011010, live neighbors = 3
+0001__1_0_00011010
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00011011, live neighbors = 4
+0001__1_0_00011011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00011100, live neighbors = 3
+0001__1_0_00011100
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00011101, live neighbors = 4
+0001__1_0_00011101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00011110, live neighbors = 4
+0001__1_0_00011110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00011111, live neighbors = 5
+0001__1_0_00011111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00100000, live neighbors = 1
+0001__1_0_00100000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00100001, live neighbors = 2
+0001__1_0_00100001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00100010, live neighbors = 2
+0001__1_0_00100010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00100011, live neighbors = 3
+0001__1_0_00100011
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00100100, live neighbors = 2
+0001__1_0_00100100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00100101, live neighbors = 3
+0001__1_0_00100101
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00100110, live neighbors = 3
+0001__1_0_00100110
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00100111, live neighbors = 4
+0001__1_0_00100111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00101000, live neighbors = 2
+0001__1_0_00101000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00101001, live neighbors = 3
+0001__1_0_00101001
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00101010, live neighbors = 3
+0001__1_0_00101010
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00101011, live neighbors = 4
+0001__1_0_00101011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00101100, live neighbors = 3
+0001__1_0_00101100
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00101101, live neighbors = 4
+0001__1_0_00101101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00101110, live neighbors = 4
+0001__1_0_00101110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00101111, live neighbors = 5
+0001__1_0_00101111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00110000, live neighbors = 2
+0001__1_0_00110000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00110001, live neighbors = 3
+0001__1_0_00110001
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00110010, live neighbors = 3
+0001__1_0_00110010
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00110011, live neighbors = 4
+0001__1_0_00110011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00110100, live neighbors = 3
+0001__1_0_00110100
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00110101, live neighbors = 4
+0001__1_0_00110101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00110110, live neighbors = 4
+0001__1_0_00110110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00110111, live neighbors = 5
+0001__1_0_00110111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00111000, live neighbors = 3
+0001__1_0_00111000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00111001, live neighbors = 4
+0001__1_0_00111001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00111010, live neighbors = 4
+0001__1_0_00111010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00111011, live neighbors = 5
+0001__1_0_00111011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00111100, live neighbors = 4
+0001__1_0_00111100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00111101, live neighbors = 5
+0001__1_0_00111101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00111110, live neighbors = 5
+0001__1_0_00111110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b00111111, live neighbors = 6
+0001__1_0_00111111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01000000, live neighbors = 1
+0001__1_0_01000000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01000001, live neighbors = 2
+0001__1_0_01000001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01000010, live neighbors = 2
+0001__1_0_01000010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01000011, live neighbors = 3
+0001__1_0_01000011
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01000100, live neighbors = 2
+0001__1_0_01000100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01000101, live neighbors = 3
+0001__1_0_01000101
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01000110, live neighbors = 3
+0001__1_0_01000110
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01000111, live neighbors = 4
+0001__1_0_01000111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01001000, live neighbors = 2
+0001__1_0_01001000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01001001, live neighbors = 3
+0001__1_0_01001001
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01001010, live neighbors = 3
+0001__1_0_01001010
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01001011, live neighbors = 4
+0001__1_0_01001011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01001100, live neighbors = 3
+0001__1_0_01001100
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01001101, live neighbors = 4
+0001__1_0_01001101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01001110, live neighbors = 4
+0001__1_0_01001110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01001111, live neighbors = 5
+0001__1_0_01001111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01010000, live neighbors = 2
+0001__1_0_01010000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01010001, live neighbors = 3
+0001__1_0_01010001
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01010010, live neighbors = 3
+0001__1_0_01010010
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01010011, live neighbors = 4
+0001__1_0_01010011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01010100, live neighbors = 3
+0001__1_0_01010100
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01010101, live neighbors = 4
+0001__1_0_01010101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01010110, live neighbors = 4
+0001__1_0_01010110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01010111, live neighbors = 5
+0001__1_0_01010111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01011000, live neighbors = 3
+0001__1_0_01011000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01011001, live neighbors = 4
+0001__1_0_01011001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01011010, live neighbors = 4
+0001__1_0_01011010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01011011, live neighbors = 5
+0001__1_0_01011011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01011100, live neighbors = 4
+0001__1_0_01011100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01011101, live neighbors = 5
+0001__1_0_01011101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01011110, live neighbors = 5
+0001__1_0_01011110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01011111, live neighbors = 6
+0001__1_0_01011111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01100000, live neighbors = 2
+0001__1_0_01100000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01100001, live neighbors = 3
+0001__1_0_01100001
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01100010, live neighbors = 3
+0001__1_0_01100010
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01100011, live neighbors = 4
+0001__1_0_01100011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01100100, live neighbors = 3
+0001__1_0_01100100
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01100101, live neighbors = 4
+0001__1_0_01100101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01100110, live neighbors = 4
+0001__1_0_01100110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01100111, live neighbors = 5
+0001__1_0_01100111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01101000, live neighbors = 3
+0001__1_0_01101000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01101001, live neighbors = 4
+0001__1_0_01101001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01101010, live neighbors = 4
+0001__1_0_01101010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01101011, live neighbors = 5
+0001__1_0_01101011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01101100, live neighbors = 4
+0001__1_0_01101100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01101101, live neighbors = 5
+0001__1_0_01101101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01101110, live neighbors = 5
+0001__1_0_01101110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01101111, live neighbors = 6
+0001__1_0_01101111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01110000, live neighbors = 3
+0001__1_0_01110000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01110001, live neighbors = 4
+0001__1_0_01110001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01110010, live neighbors = 4
+0001__1_0_01110010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01110011, live neighbors = 5
+0001__1_0_01110011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01110100, live neighbors = 4
+0001__1_0_01110100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01110101, live neighbors = 5
+0001__1_0_01110101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01110110, live neighbors = 5
+0001__1_0_01110110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01110111, live neighbors = 6
+0001__1_0_01110111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01111000, live neighbors = 4
+0001__1_0_01111000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01111001, live neighbors = 5
+0001__1_0_01111001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01111010, live neighbors = 5
+0001__1_0_01111010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01111011, live neighbors = 6
+0001__1_0_01111011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01111100, live neighbors = 5
+0001__1_0_01111100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01111101, live neighbors = 6
+0001__1_0_01111101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01111110, live neighbors = 6
+0001__1_0_01111110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b01111111, live neighbors = 7
+0001__1_0_01111111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10000000, live neighbors = 1
+0001__1_0_10000000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10000001, live neighbors = 2
+0001__1_0_10000001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10000010, live neighbors = 2
+0001__1_0_10000010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10000011, live neighbors = 3
+0001__1_0_10000011
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10000100, live neighbors = 2
+0001__1_0_10000100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10000101, live neighbors = 3
+0001__1_0_10000101
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10000110, live neighbors = 3
+0001__1_0_10000110
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10000111, live neighbors = 4
+0001__1_0_10000111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10001000, live neighbors = 2
+0001__1_0_10001000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10001001, live neighbors = 3
+0001__1_0_10001001
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10001010, live neighbors = 3
+0001__1_0_10001010
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10001011, live neighbors = 4
+0001__1_0_10001011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10001100, live neighbors = 3
+0001__1_0_10001100
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10001101, live neighbors = 4
+0001__1_0_10001101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10001110, live neighbors = 4
+0001__1_0_10001110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10001111, live neighbors = 5
+0001__1_0_10001111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10010000, live neighbors = 2
+0001__1_0_10010000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10010001, live neighbors = 3
+0001__1_0_10010001
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10010010, live neighbors = 3
+0001__1_0_10010010
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10010011, live neighbors = 4
+0001__1_0_10010011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10010100, live neighbors = 3
+0001__1_0_10010100
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10010101, live neighbors = 4
+0001__1_0_10010101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10010110, live neighbors = 4
+0001__1_0_10010110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10010111, live neighbors = 5
+0001__1_0_10010111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10011000, live neighbors = 3
+0001__1_0_10011000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10011001, live neighbors = 4
+0001__1_0_10011001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10011010, live neighbors = 4
+0001__1_0_10011010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10011011, live neighbors = 5
+0001__1_0_10011011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10011100, live neighbors = 4
+0001__1_0_10011100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10011101, live neighbors = 5
+0001__1_0_10011101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10011110, live neighbors = 5
+0001__1_0_10011110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10011111, live neighbors = 6
+0001__1_0_10011111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10100000, live neighbors = 2
+0001__1_0_10100000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10100001, live neighbors = 3
+0001__1_0_10100001
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10100010, live neighbors = 3
+0001__1_0_10100010
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10100011, live neighbors = 4
+0001__1_0_10100011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10100100, live neighbors = 3
+0001__1_0_10100100
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10100101, live neighbors = 4
+0001__1_0_10100101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10100110, live neighbors = 4
+0001__1_0_10100110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10100111, live neighbors = 5
+0001__1_0_10100111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10101000, live neighbors = 3
+0001__1_0_10101000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10101001, live neighbors = 4
+0001__1_0_10101001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10101010, live neighbors = 4
+0001__1_0_10101010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10101011, live neighbors = 5
+0001__1_0_10101011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10101100, live neighbors = 4
+0001__1_0_10101100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10101101, live neighbors = 5
+0001__1_0_10101101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10101110, live neighbors = 5
+0001__1_0_10101110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10101111, live neighbors = 6
+0001__1_0_10101111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10110000, live neighbors = 3
+0001__1_0_10110000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10110001, live neighbors = 4
+0001__1_0_10110001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10110010, live neighbors = 4
+0001__1_0_10110010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10110011, live neighbors = 5
+0001__1_0_10110011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10110100, live neighbors = 4
+0001__1_0_10110100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10110101, live neighbors = 5
+0001__1_0_10110101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10110110, live neighbors = 5
+0001__1_0_10110110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10110111, live neighbors = 6
+0001__1_0_10110111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10111000, live neighbors = 4
+0001__1_0_10111000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10111001, live neighbors = 5
+0001__1_0_10111001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10111010, live neighbors = 5
+0001__1_0_10111010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10111011, live neighbors = 6
+0001__1_0_10111011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10111100, live neighbors = 5
+0001__1_0_10111100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10111101, live neighbors = 6
+0001__1_0_10111101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10111110, live neighbors = 6
+0001__1_0_10111110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b10111111, live neighbors = 7
+0001__1_0_10111111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11000000, live neighbors = 2
+0001__1_0_11000000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11000001, live neighbors = 3
+0001__1_0_11000001
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11000010, live neighbors = 3
+0001__1_0_11000010
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11000011, live neighbors = 4
+0001__1_0_11000011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11000100, live neighbors = 3
+0001__1_0_11000100
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11000101, live neighbors = 4
+0001__1_0_11000101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11000110, live neighbors = 4
+0001__1_0_11000110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11000111, live neighbors = 5
+0001__1_0_11000111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11001000, live neighbors = 3
+0001__1_0_11001000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11001001, live neighbors = 4
+0001__1_0_11001001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11001010, live neighbors = 4
+0001__1_0_11001010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11001011, live neighbors = 5
+0001__1_0_11001011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11001100, live neighbors = 4
+0001__1_0_11001100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11001101, live neighbors = 5
+0001__1_0_11001101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11001110, live neighbors = 5
+0001__1_0_11001110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11001111, live neighbors = 6
+0001__1_0_11001111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11010000, live neighbors = 3
+0001__1_0_11010000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11010001, live neighbors = 4
+0001__1_0_11010001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11010010, live neighbors = 4
+0001__1_0_11010010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11010011, live neighbors = 5
+0001__1_0_11010011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11010100, live neighbors = 4
+0001__1_0_11010100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11010101, live neighbors = 5
+0001__1_0_11010101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11010110, live neighbors = 5
+0001__1_0_11010110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11010111, live neighbors = 6
+0001__1_0_11010111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11011000, live neighbors = 4
+0001__1_0_11011000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11011001, live neighbors = 5
+0001__1_0_11011001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11011010, live neighbors = 5
+0001__1_0_11011010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11011011, live neighbors = 6
+0001__1_0_11011011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11011100, live neighbors = 5
+0001__1_0_11011100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11011101, live neighbors = 6
+0001__1_0_11011101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11011110, live neighbors = 6
+0001__1_0_11011110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11011111, live neighbors = 7
+0001__1_0_11011111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11100000, live neighbors = 3
+0001__1_0_11100000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11100001, live neighbors = 4
+0001__1_0_11100001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11100010, live neighbors = 4
+0001__1_0_11100010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11100011, live neighbors = 5
+0001__1_0_11100011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11100100, live neighbors = 4
+0001__1_0_11100100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11100101, live neighbors = 5
+0001__1_0_11100101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11100110, live neighbors = 5
+0001__1_0_11100110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11100111, live neighbors = 6
+0001__1_0_11100111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11101000, live neighbors = 4
+0001__1_0_11101000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11101001, live neighbors = 5
+0001__1_0_11101001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11101010, live neighbors = 5
+0001__1_0_11101010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11101011, live neighbors = 6
+0001__1_0_11101011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11101100, live neighbors = 5
+0001__1_0_11101100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11101101, live neighbors = 6
+0001__1_0_11101101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11101110, live neighbors = 6
+0001__1_0_11101110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11101111, live neighbors = 7
+0001__1_0_11101111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11110000, live neighbors = 4
+0001__1_0_11110000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11110001, live neighbors = 5
+0001__1_0_11110001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11110010, live neighbors = 5
+0001__1_0_11110010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11110011, live neighbors = 6
+0001__1_0_11110011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11110100, live neighbors = 5
+0001__1_0_11110100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11110101, live neighbors = 6
+0001__1_0_11110101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11110110, live neighbors = 6
+0001__1_0_11110110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11110111, live neighbors = 7
+0001__1_0_11110111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11111000, live neighbors = 5
+0001__1_0_11111000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11111001, live neighbors = 6
+0001__1_0_11111001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11111010, live neighbors = 6
+0001__1_0_11111010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11111011, live neighbors = 7
+0001__1_0_11111011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11111100, live neighbors = 6
+0001__1_0_11111100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11111101, live neighbors = 7
+0001__1_0_11111101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11111110, live neighbors = 7
+0001__1_0_11111110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 0
+0001__0_0_00000000
+# Enable, neighbors = 8'b11111111, live neighbors = 8
+0001__1_0_11111111
+# Expected next state = 0
+0010__000000000_0
+
+# ===============================
+# Tests with update value = 1
+# ===============================
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00000000, live neighbors = 0
+0001__1_0_00000000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00000001, live neighbors = 1
+0001__1_0_00000001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00000010, live neighbors = 1
+0001__1_0_00000010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00000011, live neighbors = 2
+0001__1_0_00000011
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00000100, live neighbors = 1
+0001__1_0_00000100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00000101, live neighbors = 2
+0001__1_0_00000101
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00000110, live neighbors = 2
+0001__1_0_00000110
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00000111, live neighbors = 3
+0001__1_0_00000111
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00001000, live neighbors = 1
+0001__1_0_00001000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00001001, live neighbors = 2
+0001__1_0_00001001
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00001010, live neighbors = 2
+0001__1_0_00001010
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00001011, live neighbors = 3
+0001__1_0_00001011
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00001100, live neighbors = 2
+0001__1_0_00001100
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00001101, live neighbors = 3
+0001__1_0_00001101
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00001110, live neighbors = 3
+0001__1_0_00001110
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00001111, live neighbors = 4
+0001__1_0_00001111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00010000, live neighbors = 1
+0001__1_0_00010000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00010001, live neighbors = 2
+0001__1_0_00010001
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00010010, live neighbors = 2
+0001__1_0_00010010
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00010011, live neighbors = 3
+0001__1_0_00010011
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00010100, live neighbors = 2
+0001__1_0_00010100
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00010101, live neighbors = 3
+0001__1_0_00010101
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00010110, live neighbors = 3
+0001__1_0_00010110
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00010111, live neighbors = 4
+0001__1_0_00010111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00011000, live neighbors = 2
+0001__1_0_00011000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00011001, live neighbors = 3
+0001__1_0_00011001
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00011010, live neighbors = 3
+0001__1_0_00011010
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00011011, live neighbors = 4
+0001__1_0_00011011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00011100, live neighbors = 3
+0001__1_0_00011100
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00011101, live neighbors = 4
+0001__1_0_00011101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00011110, live neighbors = 4
+0001__1_0_00011110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00011111, live neighbors = 5
+0001__1_0_00011111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00100000, live neighbors = 1
+0001__1_0_00100000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00100001, live neighbors = 2
+0001__1_0_00100001
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00100010, live neighbors = 2
+0001__1_0_00100010
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00100011, live neighbors = 3
+0001__1_0_00100011
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00100100, live neighbors = 2
+0001__1_0_00100100
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00100101, live neighbors = 3
+0001__1_0_00100101
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00100110, live neighbors = 3
+0001__1_0_00100110
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00100111, live neighbors = 4
+0001__1_0_00100111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00101000, live neighbors = 2
+0001__1_0_00101000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00101001, live neighbors = 3
+0001__1_0_00101001
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00101010, live neighbors = 3
+0001__1_0_00101010
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00101011, live neighbors = 4
+0001__1_0_00101011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00101100, live neighbors = 3
+0001__1_0_00101100
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00101101, live neighbors = 4
+0001__1_0_00101101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00101110, live neighbors = 4
+0001__1_0_00101110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00101111, live neighbors = 5
+0001__1_0_00101111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00110000, live neighbors = 2
+0001__1_0_00110000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00110001, live neighbors = 3
+0001__1_0_00110001
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00110010, live neighbors = 3
+0001__1_0_00110010
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00110011, live neighbors = 4
+0001__1_0_00110011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00110100, live neighbors = 3
+0001__1_0_00110100
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00110101, live neighbors = 4
+0001__1_0_00110101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00110110, live neighbors = 4
+0001__1_0_00110110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00110111, live neighbors = 5
+0001__1_0_00110111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00111000, live neighbors = 3
+0001__1_0_00111000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00111001, live neighbors = 4
+0001__1_0_00111001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00111010, live neighbors = 4
+0001__1_0_00111010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00111011, live neighbors = 5
+0001__1_0_00111011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00111100, live neighbors = 4
+0001__1_0_00111100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00111101, live neighbors = 5
+0001__1_0_00111101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00111110, live neighbors = 5
+0001__1_0_00111110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b00111111, live neighbors = 6
+0001__1_0_00111111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01000000, live neighbors = 1
+0001__1_0_01000000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01000001, live neighbors = 2
+0001__1_0_01000001
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01000010, live neighbors = 2
+0001__1_0_01000010
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01000011, live neighbors = 3
+0001__1_0_01000011
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01000100, live neighbors = 2
+0001__1_0_01000100
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01000101, live neighbors = 3
+0001__1_0_01000101
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01000110, live neighbors = 3
+0001__1_0_01000110
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01000111, live neighbors = 4
+0001__1_0_01000111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01001000, live neighbors = 2
+0001__1_0_01001000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01001001, live neighbors = 3
+0001__1_0_01001001
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01001010, live neighbors = 3
+0001__1_0_01001010
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01001011, live neighbors = 4
+0001__1_0_01001011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01001100, live neighbors = 3
+0001__1_0_01001100
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01001101, live neighbors = 4
+0001__1_0_01001101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01001110, live neighbors = 4
+0001__1_0_01001110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01001111, live neighbors = 5
+0001__1_0_01001111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01010000, live neighbors = 2
+0001__1_0_01010000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01010001, live neighbors = 3
+0001__1_0_01010001
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01010010, live neighbors = 3
+0001__1_0_01010010
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01010011, live neighbors = 4
+0001__1_0_01010011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01010100, live neighbors = 3
+0001__1_0_01010100
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01010101, live neighbors = 4
+0001__1_0_01010101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01010110, live neighbors = 4
+0001__1_0_01010110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01010111, live neighbors = 5
+0001__1_0_01010111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01011000, live neighbors = 3
+0001__1_0_01011000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01011001, live neighbors = 4
+0001__1_0_01011001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01011010, live neighbors = 4
+0001__1_0_01011010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01011011, live neighbors = 5
+0001__1_0_01011011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01011100, live neighbors = 4
+0001__1_0_01011100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01011101, live neighbors = 5
+0001__1_0_01011101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01011110, live neighbors = 5
+0001__1_0_01011110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01011111, live neighbors = 6
+0001__1_0_01011111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01100000, live neighbors = 2
+0001__1_0_01100000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01100001, live neighbors = 3
+0001__1_0_01100001
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01100010, live neighbors = 3
+0001__1_0_01100010
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01100011, live neighbors = 4
+0001__1_0_01100011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01100100, live neighbors = 3
+0001__1_0_01100100
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01100101, live neighbors = 4
+0001__1_0_01100101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01100110, live neighbors = 4
+0001__1_0_01100110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01100111, live neighbors = 5
+0001__1_0_01100111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01101000, live neighbors = 3
+0001__1_0_01101000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01101001, live neighbors = 4
+0001__1_0_01101001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01101010, live neighbors = 4
+0001__1_0_01101010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01101011, live neighbors = 5
+0001__1_0_01101011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01101100, live neighbors = 4
+0001__1_0_01101100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01101101, live neighbors = 5
+0001__1_0_01101101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01101110, live neighbors = 5
+0001__1_0_01101110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01101111, live neighbors = 6
+0001__1_0_01101111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01110000, live neighbors = 3
+0001__1_0_01110000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01110001, live neighbors = 4
+0001__1_0_01110001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01110010, live neighbors = 4
+0001__1_0_01110010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01110011, live neighbors = 5
+0001__1_0_01110011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01110100, live neighbors = 4
+0001__1_0_01110100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01110101, live neighbors = 5
+0001__1_0_01110101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01110110, live neighbors = 5
+0001__1_0_01110110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01110111, live neighbors = 6
+0001__1_0_01110111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01111000, live neighbors = 4
+0001__1_0_01111000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01111001, live neighbors = 5
+0001__1_0_01111001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01111010, live neighbors = 5
+0001__1_0_01111010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01111011, live neighbors = 6
+0001__1_0_01111011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01111100, live neighbors = 5
+0001__1_0_01111100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01111101, live neighbors = 6
+0001__1_0_01111101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01111110, live neighbors = 6
+0001__1_0_01111110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b01111111, live neighbors = 7
+0001__1_0_01111111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10000000, live neighbors = 1
+0001__1_0_10000000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10000001, live neighbors = 2
+0001__1_0_10000001
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10000010, live neighbors = 2
+0001__1_0_10000010
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10000011, live neighbors = 3
+0001__1_0_10000011
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10000100, live neighbors = 2
+0001__1_0_10000100
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10000101, live neighbors = 3
+0001__1_0_10000101
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10000110, live neighbors = 3
+0001__1_0_10000110
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10000111, live neighbors = 4
+0001__1_0_10000111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10001000, live neighbors = 2
+0001__1_0_10001000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10001001, live neighbors = 3
+0001__1_0_10001001
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10001010, live neighbors = 3
+0001__1_0_10001010
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10001011, live neighbors = 4
+0001__1_0_10001011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10001100, live neighbors = 3
+0001__1_0_10001100
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10001101, live neighbors = 4
+0001__1_0_10001101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10001110, live neighbors = 4
+0001__1_0_10001110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10001111, live neighbors = 5
+0001__1_0_10001111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10010000, live neighbors = 2
+0001__1_0_10010000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10010001, live neighbors = 3
+0001__1_0_10010001
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10010010, live neighbors = 3
+0001__1_0_10010010
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10010011, live neighbors = 4
+0001__1_0_10010011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10010100, live neighbors = 3
+0001__1_0_10010100
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10010101, live neighbors = 4
+0001__1_0_10010101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10010110, live neighbors = 4
+0001__1_0_10010110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10010111, live neighbors = 5
+0001__1_0_10010111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10011000, live neighbors = 3
+0001__1_0_10011000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10011001, live neighbors = 4
+0001__1_0_10011001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10011010, live neighbors = 4
+0001__1_0_10011010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10011011, live neighbors = 5
+0001__1_0_10011011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10011100, live neighbors = 4
+0001__1_0_10011100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10011101, live neighbors = 5
+0001__1_0_10011101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10011110, live neighbors = 5
+0001__1_0_10011110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10011111, live neighbors = 6
+0001__1_0_10011111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10100000, live neighbors = 2
+0001__1_0_10100000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10100001, live neighbors = 3
+0001__1_0_10100001
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10100010, live neighbors = 3
+0001__1_0_10100010
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10100011, live neighbors = 4
+0001__1_0_10100011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10100100, live neighbors = 3
+0001__1_0_10100100
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10100101, live neighbors = 4
+0001__1_0_10100101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10100110, live neighbors = 4
+0001__1_0_10100110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10100111, live neighbors = 5
+0001__1_0_10100111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10101000, live neighbors = 3
+0001__1_0_10101000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10101001, live neighbors = 4
+0001__1_0_10101001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10101010, live neighbors = 4
+0001__1_0_10101010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10101011, live neighbors = 5
+0001__1_0_10101011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10101100, live neighbors = 4
+0001__1_0_10101100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10101101, live neighbors = 5
+0001__1_0_10101101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10101110, live neighbors = 5
+0001__1_0_10101110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10101111, live neighbors = 6
+0001__1_0_10101111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10110000, live neighbors = 3
+0001__1_0_10110000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10110001, live neighbors = 4
+0001__1_0_10110001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10110010, live neighbors = 4
+0001__1_0_10110010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10110011, live neighbors = 5
+0001__1_0_10110011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10110100, live neighbors = 4
+0001__1_0_10110100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10110101, live neighbors = 5
+0001__1_0_10110101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10110110, live neighbors = 5
+0001__1_0_10110110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10110111, live neighbors = 6
+0001__1_0_10110111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10111000, live neighbors = 4
+0001__1_0_10111000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10111001, live neighbors = 5
+0001__1_0_10111001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10111010, live neighbors = 5
+0001__1_0_10111010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10111011, live neighbors = 6
+0001__1_0_10111011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10111100, live neighbors = 5
+0001__1_0_10111100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10111101, live neighbors = 6
+0001__1_0_10111101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10111110, live neighbors = 6
+0001__1_0_10111110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b10111111, live neighbors = 7
+0001__1_0_10111111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11000000, live neighbors = 2
+0001__1_0_11000000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11000001, live neighbors = 3
+0001__1_0_11000001
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11000010, live neighbors = 3
+0001__1_0_11000010
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11000011, live neighbors = 4
+0001__1_0_11000011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11000100, live neighbors = 3
+0001__1_0_11000100
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11000101, live neighbors = 4
+0001__1_0_11000101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11000110, live neighbors = 4
+0001__1_0_11000110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11000111, live neighbors = 5
+0001__1_0_11000111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11001000, live neighbors = 3
+0001__1_0_11001000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11001001, live neighbors = 4
+0001__1_0_11001001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11001010, live neighbors = 4
+0001__1_0_11001010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11001011, live neighbors = 5
+0001__1_0_11001011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11001100, live neighbors = 4
+0001__1_0_11001100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11001101, live neighbors = 5
+0001__1_0_11001101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11001110, live neighbors = 5
+0001__1_0_11001110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11001111, live neighbors = 6
+0001__1_0_11001111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11010000, live neighbors = 3
+0001__1_0_11010000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11010001, live neighbors = 4
+0001__1_0_11010001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11010010, live neighbors = 4
+0001__1_0_11010010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11010011, live neighbors = 5
+0001__1_0_11010011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11010100, live neighbors = 4
+0001__1_0_11010100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11010101, live neighbors = 5
+0001__1_0_11010101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11010110, live neighbors = 5
+0001__1_0_11010110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11010111, live neighbors = 6
+0001__1_0_11010111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11011000, live neighbors = 4
+0001__1_0_11011000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11011001, live neighbors = 5
+0001__1_0_11011001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11011010, live neighbors = 5
+0001__1_0_11011010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11011011, live neighbors = 6
+0001__1_0_11011011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11011100, live neighbors = 5
+0001__1_0_11011100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11011101, live neighbors = 6
+0001__1_0_11011101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11011110, live neighbors = 6
+0001__1_0_11011110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11011111, live neighbors = 7
+0001__1_0_11011111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11100000, live neighbors = 3
+0001__1_0_11100000
+# Expected next state = 1
+0010__000000000_1
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11100001, live neighbors = 4
+0001__1_0_11100001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11100010, live neighbors = 4
+0001__1_0_11100010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11100011, live neighbors = 5
+0001__1_0_11100011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11100100, live neighbors = 4
+0001__1_0_11100100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11100101, live neighbors = 5
+0001__1_0_11100101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11100110, live neighbors = 5
+0001__1_0_11100110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11100111, live neighbors = 6
+0001__1_0_11100111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11101000, live neighbors = 4
+0001__1_0_11101000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11101001, live neighbors = 5
+0001__1_0_11101001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11101010, live neighbors = 5
+0001__1_0_11101010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11101011, live neighbors = 6
+0001__1_0_11101011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11101100, live neighbors = 5
+0001__1_0_11101100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11101101, live neighbors = 6
+0001__1_0_11101101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11101110, live neighbors = 6
+0001__1_0_11101110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11101111, live neighbors = 7
+0001__1_0_11101111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11110000, live neighbors = 4
+0001__1_0_11110000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11110001, live neighbors = 5
+0001__1_0_11110001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11110010, live neighbors = 5
+0001__1_0_11110010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11110011, live neighbors = 6
+0001__1_0_11110011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11110100, live neighbors = 5
+0001__1_0_11110100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11110101, live neighbors = 6
+0001__1_0_11110101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11110110, live neighbors = 6
+0001__1_0_11110110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11110111, live neighbors = 7
+0001__1_0_11110111
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11111000, live neighbors = 5
+0001__1_0_11111000
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11111001, live neighbors = 6
+0001__1_0_11111001
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11111010, live neighbors = 6
+0001__1_0_11111010
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11111011, live neighbors = 7
+0001__1_0_11111011
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11111100, live neighbors = 6
+0001__1_0_11111100
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11111101, live neighbors = 7
+0001__1_0_11111101
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11111110, live neighbors = 7
+0001__1_0_11111110
+# Expected next state = 0
+0010__000000000_0
+
+# Update value = 1
+0001__0_1_00000000
+# Enable, neighbors = 8'b11111111, live neighbors = 8
+0001__1_0_11111111
+# Expected next state = 0
+0010__000000000_0
+
 
 
 
