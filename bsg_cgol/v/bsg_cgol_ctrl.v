@@ -33,9 +33,6 @@ module bsg_cgol_ctrl #(
     /// Waiting for game to start
     IDLE,
 
-    /// Update
-    UPDATE,
-
     /// Playing the game
     GAMING,
 
@@ -47,13 +44,6 @@ module bsg_cgol_ctrl #(
   logic [1:0] state_r;
   logic [1:0] next_state;
 
-  assign state = state_t'(state_r);
-
-  assign ready_o = (state == IDLE);
-  assign update_o = state == UPDATE;
-  assign en_o = state == GAMING;
-  assign v_o = (state == DONE);
-
   logic [game_len_width_lp-1:0] max_frames;
 
   logic [game_len_width_lp-1:0] frame_count;
@@ -64,11 +54,20 @@ module bsg_cgol_ctrl #(
 
   wire last_frame = frame_count == max_frames - 1'b1;
 
+  assign state = state_t'(state_r);
+
+  assign ready_o = (state == IDLE); 
+  assign update_o = accept_input;
+  assign en_o = state == GAMING;
+  assign v_o = (state == DONE);
+
   /// Latches Frames
-  bsg_dff_en #(
-      .width_p(game_len_width_lp)
+  bsg_dff_reset_en #(
+      .width_p(game_len_width_lp),
+      .reset_val_p(0)
   ) max_frames_latch (
       .clk_i (clk_i),
+      .reset_i (reset_i),
       .en_i (accept_input),
       .data_i(frames_i),
       .data_o(max_frames)
@@ -81,7 +80,6 @@ module bsg_cgol_ctrl #(
   wire [3:0][game_len_width_lp-1:0] next_frame_count_options;
 
   assign next_frame_count_options[IDLE]   = '0;
-  assign next_frame_count_options[UPDATE] = '0;
   assign next_frame_count_options[GAMING] = frame_count_plus_one;
   assign next_frame_count_options[DONE]   = frame_count;
 
@@ -95,18 +93,19 @@ module bsg_cgol_ctrl #(
   );
 
   /// Latches Frames Count
-  bsg_dff #(
-      .width_p(game_len_width_lp)
+  bsg_dff_reset #(
+      .width_p(game_len_width_lp),
+      .reset_val_p(0)
   ) frame_count_latch (
       .clk_i (clk_i),
+      .reset_i (reset_i),
       .data_i(next_frame_count),
       .data_o(frame_count)
   );
 
   wire [3:0][1:0] next_state_options;
 
-  assign next_state_options[IDLE]   = accept_input ? UPDATE : IDLE;
-  assign next_state_options[UPDATE] = max_frames == '0 ? DONE : GAMING;
+  assign next_state_options[IDLE]   = accept_input ? GAMING : IDLE;
   assign next_state_options[GAMING] = last_frame ? DONE : GAMING;
   assign next_state_options[DONE]   = output_accepted ? IDLE : DONE;
 
@@ -119,10 +118,12 @@ module bsg_cgol_ctrl #(
     ,.data_o(next_state)
   );
 
-  bsg_dff #(
-    .width_p(2)
+  bsg_dff_reset #(
+    .width_p(2),
+    .reset_val_p(IDLE)
   ) state_latch (
     .clk_i (clk_i),
+    .reset_i (reset_i),
     .data_i(next_state),
     .data_o(state_r)
   );
