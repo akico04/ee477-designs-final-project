@@ -6,6 +6,8 @@
  * N is the master node ID.
  */
 
+`include "bsg_defines.v"
+
 `define bsg_trace_master_n_rom(n)                               \
   bsg_trace_master_``n``_rom #(.width_p(rom_data_width_lp)       \
                               ,.addr_width_p(rom_addr_width_lp)) \

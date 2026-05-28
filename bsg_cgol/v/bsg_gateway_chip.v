@@ -1,3 +1,5 @@
+`include "bsg_defines.v"
+
 module bsg_gateway_chip
   `include "bsg_pinout_inverted.v"
 

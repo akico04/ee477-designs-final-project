@@ -1,3 +1,5 @@
+`include "bsg_defines.v"
+
 module bsg_cgol_output_data_channel #(
    parameter `BSG_INV_PARAM(board_width_p)
   ,localparam num_total_cells_lp = board_width_p*board_width_p

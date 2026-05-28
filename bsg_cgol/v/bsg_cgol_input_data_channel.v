@@ -1,3 +1,5 @@
+`include "bsg_defines.v"
+
 module bsg_cgol_input_data_channel #(
    parameter `BSG_INV_PARAM(board_width_p)
   ,parameter `BSG_INV_PARAM(max_game_length_p)

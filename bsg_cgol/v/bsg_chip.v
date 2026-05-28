@@ -1,3 +1,4 @@
+`include "bsg_defines.v"
 
 /**
  * BSG Chip
