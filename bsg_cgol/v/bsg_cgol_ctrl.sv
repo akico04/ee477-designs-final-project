@@ -45,7 +45,7 @@ module bsg_cgol_ctrl #(
 
   state_t state;
   logic [1:0] state_r;
-  state_t next_state;
+  logic [1:0] next_state;
 
   assign state = state_t'(state_r);
 
@@ -62,6 +62,8 @@ module bsg_cgol_ctrl #(
 
   wire output_accepted = yumi_i & v_o;
 
+  wire last_frame = frame_count == max_frames - 1'b1;
+
   /// Latches Frames
   bsg_dff_en #(
       .width_p(game_len_width_lp)
@@ -74,29 +76,23 @@ module bsg_cgol_ctrl #(
 
   logic [game_len_width_lp-1:0] next_frame_count;
 
-  always_comb begin
-    if (reset_i) begin
-      next_frame_count = 0;
-    end else begin
-      case(state)
-        IDLE: begin
-          next_frame_count = 0;
-        end
+  wire [game_len_width_lp-1:0] frame_count_plus_one = frame_count + {{(game_len_width_lp-1){1'b0}}, 1'b1};
 
-        UPDATE: begin
-          next_frame_count = frame_count;
-        end
+  wire [3:0][game_len_width_lp-1:0] next_frame_count_options;
 
-        GAMING: begin
-          next_frame_count = frame_count + 1;
-        end
+  assign next_frame_count_options[IDLE]   = '0;
+  assign next_frame_count_options[UPDATE] = '0;
+  assign next_frame_count_options[GAMING] = frame_count_plus_one;
+  assign next_frame_count_options[DONE]   = frame_count;
 
-        DONE: begin
-          next_frame_count = frame_count;
-        end
-      endcase
-    end
-  end
+  bsg_mux #(
+     .width_p(game_len_width_lp),
+     .els_p(4)
+  ) next_frame_count_mux (
+     .data_i(next_frame_count_options),
+     .sel_i(state),
+     .data_o(next_frame_count)
+  );
 
   /// Latches Frames Count
   bsg_dff #(
@@ -107,29 +103,21 @@ module bsg_cgol_ctrl #(
       .data_o(frame_count)
   );
 
-  always_comb begin
-    if (reset_i) begin
-      next_state = IDLE;
-    end else begin
-      case(state)
-        IDLE: begin
-          next_state = accept_input ? UPDATE : IDLE;
-        end
+  wire [3:0][1:0] next_state_options;
 
-        UPDATE: begin
-          next_state = GAMING;
-        end
+  assign next_state_options[IDLE]   = accept_input ? UPDATE : IDLE;
+  assign next_state_options[UPDATE] = max_frames == '0 ? DONE : GAMING;
+  assign next_state_options[GAMING] = last_frame ? DONE : GAMING;
+  assign next_state_options[DONE]   = output_accepted ? IDLE : DONE;
 
-        GAMING: begin
-          next_state = (frame_count == max_frames - 1'b1) ? DONE : GAMING;
-        end
-
-        DONE: begin
-          next_state =  output_accepted ? IDLE : DONE;
-        end
-      endcase
-    end
-  end
+  bsg_mux #(
+     .width_p(2)
+    ,.els_p(4)
+  ) next_state_mux (
+     .data_i(next_state_options)
+    ,.sel_i(state)
+    ,.data_o(next_state)
+  );
 
   bsg_dff #(
     .width_p(2)
